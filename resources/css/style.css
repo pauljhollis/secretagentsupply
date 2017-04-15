@@ -47,13 +47,23 @@ header {
   width: 20rem;
   position: relative;
   top: 9rem;
-}
-
-.bannerText h4 {
   font-weight: bold;
 }
+
 
 .bannerText h1 {
   font-size: 2rem;
-  font-weight: bold;
+  margin: 0.25rem 0;
+}
+
+nav {
+  background-color: firebrick;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  background-color: firebrick;
+  color: white;
 }
