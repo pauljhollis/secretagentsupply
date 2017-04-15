@@ -1,0 +1,27 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+.container {
+  width: 966px;
+  display: flex;
+}
+
+.logo {
+  background-color: black;
+  display: flex;
+  font-size: 1rem;
+  width: 100%;
+  color: white;
+  overflow: visible;
+  align-items: center;
+}
+
+.logo img {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+.logo span {
+  margin: 0.66rem 0;
+}
