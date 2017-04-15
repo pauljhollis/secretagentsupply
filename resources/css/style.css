@@ -67,3 +67,26 @@ nav ul {
   background-color: firebrick;
   color: white;
 }
+
+.items .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.itemBox {
+  border: 4px solid black;
+  width: 30%;
+  text-align: center;
+}
+
+.itemBox img {
+  height: 9rem;
+  margin: 2rem 0;
+}
+
+.itemBox p {
+  background-color: black;
+  padding: 1rem 0;
+  color: white;
+}
