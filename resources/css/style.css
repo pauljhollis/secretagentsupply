@@ -68,25 +68,66 @@ nav ul {
   color: white;
 }
 
-.items .container {
+.items {
+  margin: 3rem 0;
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
 }
 
-.itemBox {
+.item {
+  width: 30%
+}
+
+.itemImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
   border: 4px solid black;
-  width: 30%;
+  height: 9rem;
+}
+
+.itemImage img {
+  max-width: 8rem;
+}
+
+.itemDesc {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  display: block;
   text-align: center;
 }
 
-.itemBox img {
-  height: 9rem;
-  margin: 2rem 0;
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
 }
 
-.itemBox p {
+.infoBox {
+  width: 35%;
+}
+
+.infoBox .infoHead {
   background-color: black;
-  padding: 1rem 0;
+  display: block;
+  padding: 1em 2em;
   color: white;
+}
+
+footer {
+  background-color: black;
+  margin: 4rem 0 0 0;
+}
+
+.copy {
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.copy span {
+  padding: 5rem 0;
 }
