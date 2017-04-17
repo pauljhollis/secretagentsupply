@@ -138,23 +138,73 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 
+html {
+    font-size: 16px;
+  }
+
   ul.container li:nth-child(1n+2) {
     display: none;
   }
 
   ul.container li:nth-child(1) {
     display: list-item;
+    font-weight: bold;
   }
 
   .item {
     width: 47%;
   }
 
-  .item.glasses {
+  .glasses {
     display: none;
   }
 }
 
 @media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+
+  .bannerText {
+    padding: 1rem 2rem;
+    font-weight: bold;
+    width: 85.6%;
+    top: 10rem;
+  }
+
+  .bannerText h4 {
+        font-size: 0.77rem;
+  }
+
+  .bannerText h1 {
+    font-size: 1rem;
+    margin: 0.25rem 0px;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .items {
+    justify-content: center;
+  }
+
+  .item {
+    width: 90%
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .infoBox {
+    margin: 0.5rem auto;
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .copy {
+    justify-content: center;
+  }
 
 }
