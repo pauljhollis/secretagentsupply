@@ -67,6 +67,11 @@ nav ul {
   color: white;
 }
 
+.menu {
+  display: none;
+  margin: 0 auto;
+}
+
 .items {
   margin: 3rem 0;
   display: flex;
@@ -133,8 +138,23 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 
+  ul.container li:nth-child(1n+2) {
+    display: none;
+  }
+
+  ul.container li:nth-child(1) {
+    display: list-item;
+  }
+
+  .item {
+    width: 47%;
+  }
+
+  .item.glasses {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 470px) {
-  
+
 }
